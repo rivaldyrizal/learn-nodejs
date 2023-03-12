@@ -1,6 +1,6 @@
 import https from "https";
 
-const endpoint = "https://640b067265d3a01f980dfe06.mockapi.io"
+const endpoint = "https://640b067265d3a01f980dfe06.mockapi.io/users"
 
 const request = https.request(endpoint, {
     method: "POST",
